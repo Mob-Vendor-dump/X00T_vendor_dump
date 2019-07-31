@@ -1,0 +1,5 @@
+Journal filter=lfs diff=lfs merge=lfs -text
+Photos.apk filter=lfs diff=lfs merge=lfs -text
+GmsCore.apk filter=lfs diff=lfs merge=lfs -text
+Velvet.apk filter=lfs diff=lfs merge=lfs -text
+Chrome.apk filter=lfs diff=lfs merge=lfs -text
