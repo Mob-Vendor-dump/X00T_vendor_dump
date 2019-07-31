@@ -13472,6 +13472,7 @@
 (allow system_server_27_0 nfc_persist_file (dir (ioctl read write getattr lock add_name remove_name search open)))
 (allow system_server_27_0 persist_file (file (ioctl read write getattr lock append map open)))
 (allow system_server_27_0 persist_file (dir (ioctl read write getattr lock add_name remove_name search open)))
+(allow system_server_27_0 nvram_country_prop (property_service (set)))
 (allow uncrypt_27_0 cache_file_27_0 (file (read getattr setattr open)))
 (allow uncrypt_27_0 cache_file_27_0 (dir (getattr)))
 (allow uncrypt_27_0 media_rw_data_file_27_0 (file (read getattr open)))

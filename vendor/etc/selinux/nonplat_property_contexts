@@ -77,6 +77,10 @@ ro.alarm_boot                 u:object_r:alarm_boot_prop:s0
 ro.alarm_handled           u:object_r:alarm_handled_prop:s0
 ro.alarm_instance          u:object_r:alarm_instance_prop:s0
 ro.bluetooth.              u:object_r:bluetooth_prop:s0
+ro.correct.camera                             u:object_r:nvram_country_prop:s0
+ro.corrected.completed                        u:object_r:nvram_country_prop:s0
+ro.correct.frontcamera                        u:object_r:nvram_country_prop:s0
+ro.correct.subcamera                          u:object_r:nvram_country_prop:s0
 ro.dbg.coresight.cfg_file     u:object_r:coresight_prop:s0
 ro.gpu.available_frequencies u:object_r:freq_prop:s0
 ro.hwui.texture_cache_size u:object_r:hwui_prop:s0
